@@ -1,0 +1,39 @@
+---
+title: "R Markdown and Leaflet"
+author: "Andrew Stewart"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE, results="hide", message=FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE, results = "asis")
+library(leaflet)
+library(data.table)
+library(dplyr)
+library(knitr)
+```
+## Date: 10/28/2017
+### Places and Stops From April RV-Vacation
+
+This lesson requires:  
+ - a webpage with a date (see above), and  
+ - an interactive map created with `leaflet` (see below).  
+  
+The locations and link data in this map were orginally stored in `My Places` in `Google Earth`; recording the places we stopped in our RV Vaction in April 2017.  I imported `My Places` from a **.kmz** file to a **.csv** file that could be read by `R`.  The **.csv** file was edited with a reference to a **.png** file for `leaflet` to use as an `icon`.
+
+Icon files were downloaded from from Google:  https://mapicons.mapsmarker.com/category/markers/
+
+```{r Read Vacay Datafile, echo = TRUE, results = "markup"}
+
+## Read activity.csv and format as tbl_df
+vacayData <- read.csv("April Vacation Locations.csv", header = TRUE)
+vacayData <- tbl_df(vacayData)
+
+vacayLatLong <- data.frame(lat = c(vacayData[,"lat"]), lng= c(vacayData[,"lng"]))
+vacaySites <- vacayData[,"Link_URL"]
+vacayNames <- vacayData[,"Name"]
+
+vacayIcons <- iconList(makeIcon(paste(vacayData$icon_name),iconWidth=32, iconHeight=32))
+
+vacayLatLong %>% leaflet() %>% addTiles() %>% addMarkers(~lng, ~lat, icon = vacayIcons, popup = vacaySites$Link_URL, clusterOptions = markerClusterOptions(zoomToBoundsOnClick = TRUE))
+```
+
