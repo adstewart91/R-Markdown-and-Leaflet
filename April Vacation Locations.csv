@@ -1,19 +1,19 @@
 lng,lat,Name,Link_URL,icon_name
--81.422448,41.631717,Advanced RV,<a href='https://advanced-rv.com/'>Advanced RV</a>,van.png
--81.3233195,41.6728465,Heinen's Grocery Store.,<a href='https://www.yelp.com/biz/heinens-grocery-store-mentor'> Heinens Grocery Store Mentor</a>,grocery.png
--80.62139,41.93766801,Buccia Vineyard,<a href='http://www.bucciavineyard.com'> Buccia Vineyard</a>,winetasting.png
--78.7746706,41.8555389,Timberdoodle Flats Interpretive Trail,<a href='https://www.fs.usda.gov/recarea/allegheny/recarea/?recid=6134'>Timberdoodle Flats</a>,forest2.png
--78.45,41.816667,"Smethport, PA",<a href='http://smethportpa.org/'>Smethport PA</a>,historicalquarter.png
--78.58747926,41.75787531,Kinzua Bridge,<a href='http://www.dcnr.state.pa.us/stateparks/findapark/kinzuabridge/'>Kinzua Bridge</a>,forest2.png
--78.28027396,41.37921209,Elk State Forest,<a href='http://www.dcnr.state.pa.us/forestry/stateforests/elk/'>Elk State Forest</a>,forest2.png
--77.82482571,41.66192004,Cherry Springs State Park,<a href='http://www.dcnr.state.pa.us/stateparks/findapark/cherrysprings/'>Cherry Springs State Park</a>,forest2.png
--77.45524946,41.69538007,Leonard Harrison State Park,<a href='http://www.dcnr.pa.gov/StateParks/FindAPark/LeonardHarrisonStatePark/Pages/default.aspx'>Leonard Harrison State Park</a>,forest2.png
--77.0541685,42.14950536,The Corning Museum of Glass,<a href='http://www.cmog.org/'>Corning Museum</a>,museum_crafts.png
--77.25158931,42.40165479,Great Western Winery (Pleasant Valley Wine Co),<a href='http://www.pleasantvalleywine.com/'>Great Western Winery</a>,winetasting.png
--76.871078,42.3759,Watkins Glen State Park,<a href='https://parks.ny.gov/parks/142/details.aspx'>Watkins Glen State Park</a>,forest2.png
--76.869652,42.480241,Chateau LaFayette Reneau,<a href='http://www.clrwine.com'> Chateau LaFayette Reneau</a>,winetasting.png
--78.63876409,43.34786691,Winery At Marjim Manor,<a href='http://www.marjimmanor.com/'>Winery At Marjim Manor</a>,winetasting.png
--79.07390609,43.2592864,Oban Inn Niagra on the Lake,<a href='http://oban.com/'>Oban Inn Niagra on the Lake</a>,hotel_0star.png
--79.477199,43.19491,Legends Estate Winery,<a href='http://legendsestates.com/'>Legends Estate Winery</a>,winetasting.png
--79.644726,45.055375,Muskoka Lakes Winery & Johnstons Cranberry Marsh,<a href='http://www.cranberry.ca/'>Muskoka Lakes Winery & Johnstons Cranberry Marsh</a>,winetasting.png
--79.26997778,42.45511389,Woodbury Vineyards,<a href='http://www.woodburyvineyards.com'>Woodbury Vineyards</a>,winetasting.png
+-81.422448,41.631717,Advanced RV,<a href='https://advanced-rv.com/'target='_blank'>Advanced RV</a>,van.png
+-81.3233195,41.6728465,Heinen's Grocery Store.,<a href='https://www.yelp.com/biz/heinens-grocery-store-mentor'target='_blank'> Heinens Grocery Store Mentor</a>,grocery.png
+-80.62139,41.93766801,Buccia Vineyard,<a href='http://www.bucciavineyard.com'target='_blank'> Buccia Vineyard</a>,winetasting.png
+-78.7746706,41.8555389,Timberdoodle Flats Interpretive Trail,<a href='https://www.fs.usda.gov/recarea/allegheny/recarea/?recid=6134'target='_blank'>Timberdoodle Flats</a>,forest2.png
+-78.45,41.816667,"Smethport, PA",<a href='http://smethportpa.org/'target='_blank'>Smethport PA</a>,historicalquarter.png
+-78.58747926,41.75787531,Kinzua Bridge,<a href='http://www.dcnr.state.pa.us/stateparks/findapark/kinzuabridge/'target='_blank'>Kinzua Bridge</a>,forest2.png
+-78.28027396,41.37921209,Elk State Forest,<a href='http://www.dcnr.state.pa.us/forestry/stateforests/elk/'target='_blank'>Elk State Forest</a>,forest2.png
+-77.82482571,41.66192004,Cherry Springs State Park,<a href='http://www.dcnr.state.pa.us/stateparks/findapark/cherrysprings/'target='_blank'>Cherry Springs State Park</a>,forest2.png
+-77.45524946,41.69538007,Leonard Harrison State Park,<a href='http://www.dcnr.pa.gov/StateParks/FindAPark/LeonardHarrisonStatePark/Pages/default.aspx'target='_blank'>Leonard Harrison State Park</a>,forest2.png
+-77.0541685,42.14950536,The Corning Museum of Glass,<a href='http://www.cmog.org/'target='_blank'>Corning Glass Museum</a>,museum_crafts.png
+-77.25158931,42.40165479,Great Western Winery (Pleasant Valley Wine Co),<a href='http://www.pleasantvalleywine.com/'target='_blank'>Great Western Winery</a>,winetasting.png
+-76.871078,42.3759,Watkins Glen State Park,<a href='https://parks.ny.gov/parks/142/details.aspx'target='_blank'>Watkins Glen State Park</a>,forest2.png
+-76.869652,42.480241,Chateau LaFayette Reneau,<a href='http://www.clrwine.com'target='_blank'> Chateau LaFayette Reneau</a>,winetasting.png
+-78.63876409,43.34786691,Winery At Marjim Manor,<a href='http://www.marjimmanor.com/'target='_blank'>Winery At Marjim Manor</a>,winetasting.png
+-79.07390609,43.2592864,Oban Inn Niagra on the Lake,<a href='http://oban.com/'target='_blank'>Oban Inn at Niagra on the Lake</a>,hotel_0star.png
+-79.477199,43.19491,Legends Estate Winery,<a href='http://legendsestates.com/'target='_blank'>Legends Estate Winery</a>,winetasting.png
+-79.644726,45.055375,Muskoka Lakes Winery & Johnstons Cranberry Marsh,<a href='http://www.cranberry.ca/'target='_blank'>Muskoka Lakes Winery & Johnstons Cranberry Marsh</a>,winetasting.png
+-79.26997778,42.45511389,Woodbury Vineyards,<a href='http://www.woodburyvineyards.com/'target='_blank'>Woodbury Vineyards</a>,winetasting.png
