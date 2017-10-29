@@ -34,7 +34,7 @@ vacayNames <- vacayData[,"Name"]
 
 vacayIcons <- iconList(makeIcon(paste(vacayData$icon_name),iconWidth=32, iconHeight=32))
 
-vacayLatLong %>% leaflet() %>% addTiles() %>% addMarkers(~lng, ~lat, icon = vacayIcons, popup = vacaySites$Link_URL, clusterOptions = markerClusterOptions(zoomToBoundsOnClick = TRUE))
+vacayLatLong %>% leaflet(width = "100%") %>% addTiles() %>% addMarkers(~lng, ~lat, icon = vacayIcons, popup = vacaySites$Link_URL, clusterOptions = markerClusterOptions(zoomToBoundsOnClick = TRUE))
   
 ```
 Hosted on GitHub     
