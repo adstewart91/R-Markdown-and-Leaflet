@@ -28,12 +28,20 @@ Icon files were downloaded from from Google:  https://mapicons.mapsmarker.com/ca
 vacayData <- read.csv("April Vacation Locations.csv", header = TRUE)
 vacayData <- tbl_df(vacayData)
 
-vacayLatLong <- data.frame(lat = c(vacayData[,"lat"]), lng= c(vacayData[,"lng"]))
+vacayLatLong <- vacayData[,1:2]
 vacaySites <- vacayData[,"Link_URL"]
 vacayNames <- vacayData[,"Name"]
 
 vacayIcons <- iconList(makeIcon(paste(vacayData$icon_name),iconWidth=32, iconHeight=32))
 
 vacayLatLong %>% leaflet() %>% addTiles() %>% addMarkers(~lng, ~lat, icon = vacayIcons, popup = vacaySites$Link_URL, clusterOptions = markerClusterOptions(zoomToBoundsOnClick = TRUE))
+  
 ```
+Hosted on GitHub     
+      
+Located at: https://adstewart91.github.io/R-Markdown-and-Leaflet/Leaflet_Assignment.html
 
+RMarkDown: https://github.com/adstewart91/R-Markdown-and-Leaflet/blob/gh-pages/Leaflet%20Assignment.Rmd
+
+
+          
