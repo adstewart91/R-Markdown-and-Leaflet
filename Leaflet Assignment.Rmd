@@ -11,12 +11,12 @@ library(data.table)
 library(dplyr)
 library(knitr)
 ```
-## Date: 10/28/2017
+## Date: 28 October 2017  
 ### Places and Stops From April RV-Vacation
 
 This lesson requires:  
- - a webpage with a date (see above), and  
- - an interactive map created with `leaflet` (see below).  
+ - a webpage with a date (*see above*), and  
+ - an interactive map created with `leaflet` (*see below*).  
   
 The locations and link data in this map were orginally stored in `My Places` in `Google Earth`; recording the places we stopped in our RV Vaction in April 2017.  I imported `My Places` from a **.kmz** file to a **.csv** file that could be read by `R`.  The **.csv** file was edited with a reference to a **.png** file for `leaflet` to use as an `icon`.
 
